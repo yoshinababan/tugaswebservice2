@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="jasaservice">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="barang"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="barang">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nopelanggan"/>
+                <xs:element ref="nama_pelanggan"/>
+                <xs:element ref="tanggal_pemberian"/>
+                <xs:element ref="usia"/>
+                <xs:element ref="jk"/>
+                <xs:element ref="alamatpelanggan"/>
+                <xs:element ref="kontak_pelanggan"/>
+                <xs:element ref="email_pelanggan"/>
+                <xs:element ref="pekerjaan"/>
+                <xs:element ref="pengalaman_kerja"/>
+                <xs:element ref="pegawai_service"/>
+            </xs:sequence>
+            <xs:attribute name="service" use="required" type="xs:NCName"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="nopelanggan" type="xs:integer"/>
+    <xs:element name="nama_pelanggan" type="xs:string"/>
+    <xs:element name="tanggal_pemberian" type="xs:string"/>
+    <xs:element name="usia">
+    	<xs:simpleType>
+    		<xs:restriction base="xs:integer">
+
+
+    			<xs:minInclusive value="17"></xs:minInclusive>
+    			<xs:maxInclusive value="40"></xs:maxInclusive>
+    		</xs:restriction>
+    	</xs:simpleType>
+    </xs:element>
+    <xs:element name="jk" type="xs:NCName"/>
+    <xs:element name="alamatpelanggan" type="xs:NCName"/>
+    <xs:element name="kontak_pelanggan" type="xs:integer"/>
+    <xs:element name="email_pelanggan">
+    	<xs:simpleType>
+    		<xs:restriction base="xs:string">
+
+    			<xs:pattern value=".+@yoshinababan.com"></xs:pattern>
+    		</xs:restriction>
+    	</xs:simpleType>
+    </xs:element>
+    <xs:element name="pekerjaan" type="xs:string"/>
+    <xs:element name="pengalaman_kerja" type="xs:string"/>
+    <xs:element name="pegawai_service">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nama_pegawai"/>
+                <xs:element ref="kontak"/>
+                <xs:element ref="alamat_pegawai"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="nama_pegawai" type="xs:string"/>
+    <xs:element name="kontak" type="xs:integer"/>
+    <xs:element name="alamat_pegawai" type="xs:NCName"/>
+</xs:schema>

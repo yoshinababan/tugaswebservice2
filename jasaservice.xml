@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasaservice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="jasaservice.xsd">
+<barang service="komputer">
+		<nopelanggan>1154011</nopelanggan>
+		<nama_pelanggan>Soepardi</nama_pelanggan>
+		<tanggal_pemberian>15 Maret</tanggal_pemberian>
+		<usia>29</usia>
+		<jk>Laki-laki</jk>
+		<alamatpelanggan>sukajadi</alamatpelanggan>
+		<kontak_pelanggan>08216547750</kontak_pelanggan>
+		<email_pelanggan>Soepardi@yoshinababan.com</email_pelanggan>
+		<pekerjaan>Pegawai Negeri Sipil</pekerjaan>
+		<pengalaman_kerja>3 tahun</pengalaman_kerja>
+		<pegawai_service>
+			<nama_pegawai>Yoshi nababan</nama_pegawai>
+			<kontak>082165422560</kontak>
+			<alamat_pegawai>sariasih</alamat_pegawai>
+		</pegawai_service> 
+	</barang>
+	<barang service="televisi">
+		<nopelanggan>1154025</nopelanggan>
+		<nama_pelanggan>Tukimini</nama_pelanggan>
+		<tanggal_pemberian>17 April</tanggal_pemberian>
+		<usia>40</usia>
+		<jk>Perempuan</jk>
+		<alamatpelanggan>Tegalega</alamatpelanggan>
+		<kontak_pelanggan>082124337741</kontak_pelanggan>
+		<email_pelanggan>tukimini@yoshinababan.com</email_pelanggan>
+		<pekerjaan>Mahasiswa</pekerjaan>
+		<pengalaman_kerja>-</pengalaman_kerja>
+		<pegawai_service>
+			<nama_pegawai>Oka Sinaga</nama_pegawai>
+			<kontak>08577677770</kontak>
+			<alamat_pegawai>sarijadi</alamat_pegawai>
+		</pegawai_service> 
+	</barang>
+	<barang service="komputer">
+		<nopelanggan>114012</nopelanggan>
+		<nama_pelanggan>Daniel Panjaitan</nama_pelanggan>
+		<tanggal_pemberian>7 April</tanggal_pemberian>
+		<usia>36</usia>
+		<jk>Laki-laki</jk>
+		<alamatpelanggan>Medan</alamatpelanggan>
+		<kontak_pelanggan>082150041000</kontak_pelanggan>
+		<email_pelanggan>DanielPanjaitan@yoshinababan.com</email_pelanggan>
+		<pekerjaan>Manager</pekerjaan>
+		<pengalaman_kerja>7 tahun</pengalaman_kerja>
+		<pegawai_service>
+			<nama_pegawai>Yoshi nababan</nama_pegawai>
+			<kontak>082165422560</kontak>
+			<alamat_pegawai>sariasih</alamat_pegawai>
+		</pegawai_service>  
+	</barang>
+	<barang service="televisi">
+		<nopelanggan>1154123</nopelanggan>
+		<nama_pelanggan>Indra Saryoni</nama_pelanggan>
+		<tanggal_pemberian>9 April</tanggal_pemberian>
+		<usia>22</usia>
+		<jk>Laki-laki</jk>
+		<alamatpelanggan>Sipahutar</alamatpelanggan>
+		<kontak_pelanggan>082124335450</kontak_pelanggan>
+		<email_pelanggan>indra@yoshinababan.com</email_pelanggan>
+		<pekerjaan>Pengusaha</pekerjaan>
+		<pengalaman_kerja>2 tahun</pengalaman_kerja>
+		<pegawai_service>
+			<nama_pegawai>Oka Sinaga</nama_pegawai>
+			<kontak>08577677770</kontak>
+			<alamat_pegawai>sarijadi</alamat_pegawai>
+		</pegawai_service> 
+	</barang>
+	<barang service="komputer">
+		<nopelanggan>1144015</nopelanggan>
+		<nama_pelanggan>Tomy Prawoto</nama_pelanggan>
+		<tanggal_pemberian>7 Mei</tanggal_pemberian>
+		<usia>28</usia>
+		<jk>Laki-laki</jk>
+		<alamatpelanggan>Cijerokaso</alamatpelanggan>
+		<kontak_pelanggan>082214141214</kontak_pelanggan>
+		<email_pelanggan>tomy@yoshinababan.com</email_pelanggan>
+		<pekerjaan>Pegawai PLN</pekerjaan>
+		<pengalaman_kerja>4 tahun</pengalaman_kerja>
+		<pegawai_service>
+			<nama_pegawai>Yoshi nababan</nama_pegawai>
+			<kontak>082165422560</kontak>
+			<alamat_pegawai>sariasih</alamat_pegawai>
+		</pegawai_service> 
+	</barang>
+</jasaservice>
